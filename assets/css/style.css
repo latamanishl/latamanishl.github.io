@@ -1552,13 +1552,14 @@ div#preloader {
   text-align: left;
 }
 .hero-slider .slide-inner .slide-content{
-  background: rgba(237,143,171,.8);
+  background: rgba(237,143,171,.5);
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
   -webkit-animation: spineer 2s infinite;
   animation: spineer 2s infinite;
   max-width: 600px;
   margin: auto;
+  margin-top: 500px
   padding: 50px 0 40px;
   z-index: 99;
 }
@@ -1733,7 +1734,7 @@ div#preloader {
 
  .hero-style-2 .slide-text p, .hero-style-3 .slide-text p {
   font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 
@@ -1747,7 +1748,7 @@ div#preloader {
 @media (max-width: 767px) {
  .hero-style-2 .slide-text p, .hero-style-3 .slide-text p {
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -1775,7 +1776,7 @@ div#preloader {
 
 @media screen and (min-width: 992px) {
   .hero-style-3 .container {
-    margin-top: 0;
+    margin-top: 200px;
   }
 }
 
@@ -1794,7 +1795,7 @@ div#preloader {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/counter/1.jpg") center center/cover no-repeat local;
   text-align: center;
   padding: 235px 0 250px;
   position: relative;
@@ -2486,7 +2487,7 @@ animation: spineer 2s infinite;
 =================================*/
 
 .cta-area {
-    background: url(../images/cta/img-1.jpg) no-repeat center center / cover;
+    background: url(../images/cta/img-1.png) no-repeat center center / cover;
     position: relative;
     background-attachment: fixed;
 }
@@ -3006,7 +3007,7 @@ animation: spineer 2s infinite;
 }
 
 .rsvp-area {
-    background: url(../images/rsvp/img-1.jpg) no-repeat center center / cover;
+    background: url(../images/counter/1.jpg) no-repeat center center / cover;
     padding: 150px 0;
     position: relative;
     background-attachment: fixed;
