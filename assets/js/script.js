@@ -586,7 +586,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "mail.php",
+                    url: "https://formspree.io/f/xknpvnor",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
