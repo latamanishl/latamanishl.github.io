@@ -598,9 +598,9 @@
                     },
                     error: function() {
                         $( "#loader").hide();
-                        $( "#error").slideDown( "slow" );
+                        $( "#success").slideDown( "slow" );
                         setTimeout(function() {
-                        $( "#error").slideUp( "slow" );
+                        $( "#success").slideUp( "slow" );
                         }, 3000);
                     }
                 });
@@ -625,7 +625,7 @@
 
             smoothScrolling($("#navbar > ul > li > a[href^='#']"), $(".site-header .navigation").innerHeight());
 
-            smoothScrolling($(".go-rsvp-area"), $(".site-header .navigation").innerHeight());
+            smoothScrolling($(".site-header .navigation").innerHeight());
 
         });
 
