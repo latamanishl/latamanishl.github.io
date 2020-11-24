@@ -2116,6 +2116,11 @@ couple-area end
     position: relative;
 }
 
+.count-down-area-2 {
+    background: url(../images/counter/1-rsvp.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+    position: relative;
+}
 .count-down-area:before {
     content: "";
     width: 100%;
